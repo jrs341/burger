@@ -29,4 +29,4 @@ app.use('/', routes);
 var port = 8080;
 
 app.listen(port);
-// console.log('listening on port ' + port);
+console.log('listening on port ' + port);

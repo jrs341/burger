@@ -8,7 +8,7 @@ CREATE TABLE burgers
 (
 	id int NOT NULL AUTO_INCREMENT,
 	burger_name varchar(255) NOT NULL,
-	devoured boolean NOT NULL,
+	devoured boolean NOT NULL DEFAULT false,
 	date_created DATETIME NOT NULL DEFAULT NOW(),
 	PRIMARY KEY (id)
 );
